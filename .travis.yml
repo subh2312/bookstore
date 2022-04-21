@@ -1,3 +1,9 @@
 language: java
 jdk:
   - corretto-1.8.0_332
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_TOKEN
+  app: "book-store-spring-react"
