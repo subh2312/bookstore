@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - corretto-1.8.0_332
+  - openjdk8
 
 deploy:
   provider: heroku
